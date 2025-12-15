@@ -2,7 +2,7 @@
 
 This project consists of three Jupyter notebooks that together examine institutional time-series patterns, online enrollment behavior, and the relationship between institutional characteristics, financial indicators, and cluster membership. The notebooks are designed to be read in sequence, as each builds conceptually on the previous analyses.
 
----
+
 
 ## Notebook 1: `final_01.ipynb`  
 **Time Series Clustering of Institutions**
@@ -15,7 +15,7 @@ Explore time-series clustering of institutions using the `tslearn` package. The 
 
 The output of this notebook provides the cluster definitions and descriptive context used in subsequent analyses.
 
----
+
 
 ## Notebook 2: `final_02.ipynb`  
 **Predicting Online Enrollment Percentage**
@@ -29,7 +29,7 @@ Predict institutions’ online enrollment percentage using supervised machine le
 
 This notebook is independent of the clustering step and is intended to assess predictive performance and key correlates of online enrollment behavior.
 
----
+
 
 ## Notebook 3: `final_03.ipynb`  
 **Predicting Cluster Membership Using Institutional Characteristics**
@@ -43,7 +43,7 @@ Examine whether institutional clusters identified in `final_01.ipynb` can be pre
 **Important note on data differences:**  
 The dataset used in this notebook differs from that in `final_01.ipynb`. Institutions with parent/child reporting relationships are excluded to ensure comparability and to avoid duplication or aggregation issues in the financial and institutional indicators used for prediction.
 
----
+
 
 ## Suggested Workflow
 
