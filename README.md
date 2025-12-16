@@ -24,8 +24,9 @@ The output of this notebook provides the cluster definitions and descriptive con
 
 Predict institutions’ online enrollment percentage using supervised machine learning models. Specifically, it:
 
-- Implements three regression models: Random Forest, XGBoost, and LightGBM.
+- Implements four regression models: Interrupted Time Series Analysis, Random Forest, XGBoost, and LightGBM.
 - Uses institutional characteristics and related predictors to model variation in online enrollment share.
+- Further, we use Interrupted Time Series Analysis to model the online enrollment percentage and understand how different types of institutions respond to the COVID-19 pandemic in 2020.
 - Compares model performance across algorithms using standard evaluation metrics.
 - Identifies important predictors associated with higher or lower levels of online enrollment.
 
