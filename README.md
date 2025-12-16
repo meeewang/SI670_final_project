@@ -1,8 +1,10 @@
-# Project Overview
+# Predicting Online Enrollment U.S. Public Higher Education Institutions
+
+Authors: Ying Sun, Zhonghan Xie, Soobin Jeon, Meng Wang
 
 This project consists of three Jupyter notebooks that together examine institutional time-series patterns, online enrollment behavior, and the relationship between institutional characteristics, financial indicators, and cluster membership. The notebooks are designed to be read in sequence, as each builds conceptually on the previous analyses.
 
-
+Github Repo: [https://github.com/meeewang/SI670_final_project](https://github.com/meeewang/SI670_final_project)
 
 ## Notebook 1: `final_01.ipynb`  
 **Time Series Clustering of Institutions**
